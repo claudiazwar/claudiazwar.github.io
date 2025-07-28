@@ -1,23 +1,28 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <script type="text/javascript">
-  function toggle_visibility(id) {
-    event.preventDefault();
-    var e = document.getElementById(id);
-    if (e.style.display == 'none') {
-      e.style.display = 'block';
-    } else {
-      e.style.display = 'none';
+    function toggle_visibility(id) {
+      event.preventDefault();
+      var e = document.getElementById(id);
+      if (e.style.display === 'none') {
+        e.style.display = 'block';
+      } else {
+        e.style.display = 'none';
+      }
     }
-  }
-</script>
-</script>
+  </script>
+
   <title>Claudia Zwar</title>
+
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <link rel="stylesheet" href="stylesheets/shiro.css"> <!-- optional -->
+  <link rel="stylesheet" href="stylesheets/kube.css">  <!-- optional -->
 </head>
 
 <body>
@@ -26,9 +31,10 @@
       <h1>Claudia Zwar</h1>
       <img src="img/ClaudiaZwar_image.jpg" alt="Claudia Zwar headshot">
 
-      <p>PhD Candidate, Hertie School Doctoral Programme in Governance<br>
-         Research Associate, Hertie School Centre for Sustainability<br>
-         <a href="mailto:c.zwar@hertie-school.org">c.zwar@hertie-school.org</a>
+      <p class="view">
+        PhD Candidate, Hertie School Doctoral Programme in Governance<br>
+        Research Associate, <a href="https://www.hertie-school.org/en/sustainability/">Hertie School Centre for Sustainability</a><br>
+        <a href="mailto:c.zwar@hertie-school.org">c.zwar@hertie-school.org</a>
       </p>
 
       <p>
@@ -57,8 +63,8 @@
   <strong>Sustainability-related impacts of digitalisation on cooperation in global value chains</strong><br>
   Journal of Cleaner Production<br>
   <a href="https://www.sciencedirect.com/science/article/pii/S0959652622041786">Link</a><br>
-  <i><a href="#" onclick="toggle_visibility('abstract1');">Abstract</a></i>
-  <div id="abstract1" style="display:none;"><br>
+  <i><a href="#" onclick="toggle_visibility('supplychain');">Abstract</a></i>
+  <div id="supplychain" style="display:none;"><br>
     While digitalisation is reconfiguring global value chains (GVCs), the implications for sustainable development, especially in emerging economies, have not yet been thoroughly explored. In order to design more sustainable GVCs 
     this gap must be addressed. This study examines two implications of digitalisation in value chains: first, how polarisation may lead to inequal development; and secondly, whether digital enhanced transparency can be an enabler of 
     companies’ environmental management systems (EMS). A survey-based approach is used to compare the developments of companies in China, Brazil and Germany and gain insights into countries that approach digital transformations from 
@@ -76,7 +82,7 @@
         <li><strong>Introducing and applying the Climate Institutions Analysis Framework. A comparative analysis of climate institutions in Germany, the United Kingdom, Sweden, and Australia using the CIAF</strong><br>
             With Jacob Edenhofer and Christian Flachsland<br>
             <a href="https://osf.io/preprints/socarxiv/jf8ah_v1">OSF Link</a><br>
-  <i><a href="#" onclick="toggle_visibility('abstract1');">Abstract</a></i>
+  <i><a href="#" onclick="toggle_visibility('climateinstitutions');">Abstract</a></i>
   <div id="climateinstitutions" style="display:none;"><br>
     Climate institutions – including framework legislation and advisory bodies – have proliferated globally as part of countries’ responses to climate change. They have received growing attention amid a broader 'institutional turn’ in 
     the study of climate politics. We lack conceptual tools, however, to analyse these meso-level institutions and disentangle the mechanisms driving their effects on climate policymaking. To fill this gap, we develop the 
@@ -90,7 +96,7 @@
   <strong>When do green parties matter? Green party bargaining leverage and climate policy stringency</strong><br>
   With Christian Flachsland and Mark Kayser<br>
   Draft available upon request<br>
-  <i><a href="#" onclick="toggle_visibility('abstract1');">Abstract</a></i>
+  <i><a href="#" onclick="toggle_visibility('greencip');">Abstract</a></i>
   <div id="greencip" style="display:none;"><br>
     Political parties are often overlooked in studies of net zero transitions. Despite our growing understanding of the influence of public opinion, interest groups, and institutions, we know little about the role of parties in 
     determining climate policy. This paper addresses a specific puzzle: when do Green Parties (GPs) deliver stringent climate reforms? Theoretically, the success of ‘green’ special interest parties should lead to better climate policy 
@@ -101,7 +107,7 @@
 </li>
      <li><strong>The electoral consequences of climate ambition in fossil fuel communities</strong><br>
             Draft available upon request<br>
-  <i><a href="#" onclick="toggle_visibility('abstract1');">Abstract</a></i>
+  <i><a href="#" onclick="toggle_visibility('ffcaus');">Abstract</a></i>
   <div id="ffcaus" style="display:none;"><br>
     Government policies to mitigate climate change threaten communities reliant on the fossil fuel industry for their livelihoods and can provoke electoral backlash. But how do voters in these communities respond prospectively to climate policies, the effects of which will only materialise in the future? Building on studies which highlight the role of uncertainty in shaping climate policy preferences, I argue that uncertainty about the nature and consequences of climate reforms leads voters in fossil fuel communities to punish the party proposing them. I study this question in the context of Australia, a country characterised by regional variation in its domestic and export-oriented fossil fuel industries. I leverage the 2019 federal election -- in which climate change rose to record levels of salience and split the major parties -- as a treatment event, to estimate a difference-in-differences. Assembling a novel panel of vote shares at 4,125 polling stations across Australia, I find voters in fossil fuel communities rejected the pro-climate party, before any climate policies had been implemented. To highlight the role of uncertainty, I compare how voters responded in communities that differed in their anticipated exposure to climate policies and the degree of uncertainty in the 2019 election. I find that effects are stronger in export-oriented communities, which were not exposed to domestic climate policies, but nevertheless faced substantial uncertainty in the 2019 election campaign. These results provide new evidence of prospective voting on climate policy and offer insights for parties developing electoral strategies for climate change mitigation.
   </div>
@@ -109,7 +115,7 @@
   <strong>Economic booms and the electoral success of green parties: cross border evidence from Switzerland's neighbours</strong><br>
   With Tom Arend and Mark Kayser<br>
   Draft available upon request<br>
-  <i><a href="#" onclick="toggle_visibility('abstract1');">Abstract</a></i>
+  <i><a href="#" onclick="toggle_visibility('greenborders');">Abstract</a></i>
   <div id="greenborders" style="display:none;"><br>
     Scholars have long known that the the economy influences the electoral success of incumbent parties. We argue here that the business cycle also influences the support for a specific type of party -- Green parties -- independent of incumbent status. When Switzerland liberalized its labor market in 2002, permitting EU citizens to work in the country, they induced an exogenous income shock in the bordering regions of the neighboring countries. We leverage this natural experiment to test for causal income effects on green party vote share with difference-in-differences models in municipalities near the Swiss border. Individual-level DiD estimates in France confirm a mechanism, showing increased income and support for environmental movements in border areas.  Support for green parties has long been stronger among the affluent. We demonstrate a different phenomenon: that short-run income shocks increase support for the Greens, the party family that is most strongly associated with non-material policies.
   </div>
@@ -118,7 +124,7 @@
   <strong>How, or how much? Preferences for institutional design for compensation. (Pre Analysis Plan)</strong><br>
   With Jacob Edenhofer<br>
   Draft available upon request<br>
-  <i><a href="#" onclick="toggle_visibility('abstract1');">Abstract</a></i>
+  <i><a href="#" onclick="toggle_visibility('copmensation');">Abstract</a></i>
   <div id="compensation" style="display:none;"><br>
     Ambitious climate policy often imposes concentrated, short‐term costs on particular constituencies—workers and firms in carbon‐intensive sectors, households facing higher energy bills, and communities dependent on fossil‐fuel industries. To mitigate political backlash, governments offer climate compensation (or “just transition”) packages. Yet empirical studies reveal mixed evidence on compensation’s ability to build or sustain public support. We argue that this inconsistency stems from three distinct sources of uncertainty: (1) time‐inconsistency (will future governments honour promises?), (2) delivery risk (will funds actually reach intended beneficiaries?), and (3) representation gaps (do individuals trust that their interests are represented in allocation decisions?). Our theoretical framework lays out, in narrative form, how each uncertainty channel affects the compensation threshold a voter requires, and how different institutional features—legislative lock‐ins, central versus regional delivery, local advisory panels—trade off these uncertainties. We then outline a rating‐based conjoint experiment that randomises within each profile: commitment mechanism, delivery agent, representation mode, and compensation amount. Finally, we specify our preregistered analyses, including tests of how perceived representation gaps moderate preferences over commitment features. 
   </div>
@@ -137,11 +143,18 @@
   </li>
 </ul>
 </section>
-    <footer>
-      <p><small>Website built using the <a href="https://github.com/orderedlist/minimal">Minimal theme</a> on GitHub Pages.</small></p>
+   <footer>
+      <p><small> This website is based on the Github <a href="https://github.com/orderedlist/minimal">minimal theme</a>
+          and is inspired by the website of Shiro Kuriwaki</a>.
+          </a></small></p>
     </footer>
-      
   </div>
   <script src="javascripts/scale.fix.js"></script>
+
+  </div>
+  </footer>
+  </div>
+
 </body>
+
 </html>
