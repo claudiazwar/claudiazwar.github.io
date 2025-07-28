@@ -3,6 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript">
+  function toggle_visibility(id) {
+    event.preventDefault();
+    var e = document.getElementById(id);
+    if (e.style.display == 'none') {
+      e.style.display = 'block';
+    } else {
+      e.style.display = 'none';
+    }
+  }
+</script>
+</script>
   <title>Claudia Zwar</title>
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -12,7 +24,7 @@
   <div class="wrapper">
     <header>
       <h1>Claudia Zwar</h1>
-      <img src="img/claudia-headshot.jpg" alt="Claudia Zwar headshot">
+      <img src="img/ClaudiaZwar_image.jpg" alt="Claudia Zwar headshot">
 
       <p>PhD Candidate<br>
          Hertie School<br>
@@ -32,7 +44,7 @@
       <p>
         I am a PhD candidate at the Hertie School and a Research Associate at the <a href="https://www.hertie-school.org/en/sustainability/">Hertie School Centre for Sustainability</a>.
         From January to April 2025 I was a Visiting Research Student at the <a href="https://www.lse.ac.uk/granthaminstitute/">Grantham Research Centre on Climate Change and the Environment</a> at 
-        the London School of Economics and Political Science. I hold a First Class bachelor's degree
+        the London School of Economics and Political Science. I hold a First Class BA
         in History and English from the University of Oxford and a Master of Public Policy with Distinction from the Hertie School.
       </p>
       <p>
@@ -42,20 +54,58 @@
 
       <h2>Publications</h2>
       <ul>
-        <li><strong>Title of Paper</strong><br>
-            Journal Name (Forthcoming)<br>
-            <a href="#">[Link]</a>
-        </li>
-        <!-- Add more as needed -->
-      </ul>
+        <li>
+  <strong>Sustainability-related impacts of digitalisation on cooperation in global value chains</strong><br>
+  Journal of Cleaner Production<br>
+  <a href="https://www.sciencedirect.com/science/article/pii/S0959652622041786">Link</a><br>
+  <i><a href="#" onclick="toggle_visibility('abstract1');">[Abstract]</a></i>
+  <div id="abstract1" style="display:none;"><br>
+    While digitalisation is reconfiguring global value chains (GVCs), the implications for sustainable development, especially in emerging economies, have not yet been thoroughly explored. In order to design more sustainable GVCs 
+    this gap must be addressed. This study examines two implications of digitalisation in value chains: first, how polarisation may lead to inequal development; and secondly, whether digital enhanced transparency can be an enabler of 
+    companies’ environmental management systems (EMS). A survey-based approach is used to compare the developments of companies in China, Brazil and Germany and gain insights into countries that approach digital transformations from 
+    different starting points. The results indicate that polarisation tendencies on a country level are not as pronounced as experts predicted. Across all countries, less than 10% of companies reported that collaboration processes are 
+    being fully digitalised, while partial digitalisation is more common, ranging from 46% in Brazil (n = 116), to 61% in China (n = 441) and 63% in Germany (n = 104). Polarisation tendencies are stronger among small- and medium-sized 
+    companies (SMEs) across all countries. As SMEs form the backbone of countries' economies, this should be addressed by global governance. Digital enhanced transparency for EMS is not yet widespread, with only 9% of the German, 3% of 
+    the Brazilian and 6% of the Chinese companies integrating production data into their EMS in a fully digital way. The results of this study suggest that the automotive sector would provide a suitable object for future research, as it 
+    displays clear differences to other industries.
+  </div>
+</li>
+</ul>
 
-      <h2>Working Papers</h2>
+      <h2>Working Papers and Ongoing Projects</h2>
       <ul>
-        <li><strong>Title of WP</strong><br>
-            With Co-authors<br>
-            <a href="#">[Link or OSF]</a>
-        </li>
-        <!-- Add more as needed -->
+        <li><strong>Introducing and applying the Climate Institutions Analysis Framework. A comparative analysis of climate institutions in Germany, the United Kingdom, Sweden, and Australia using the CIAF</strong><br>
+            With Jacob Edenhofer and Christian Flachsland<br>
+            <a href="https://osf.io/preprints/socarxiv/jf8ah_v1">OSF Link</a><br>
+  <i><a href="#" onclick="toggle_visibility('abstract1');">[Abstract]</a></i>
+  <div id="climateinstitutions" style="display:none;"><br>
+    Climate institutions – including framework legislation and advisory bodies – have proliferated globally as part of countries’ responses to climate change. They have received growing attention amid a broader 'institutional turn’ in 
+    the study of climate politics. We lack conceptual tools, however, to analyse these meso-level institutions and disentangle the mechanisms driving their effects on climate policymaking. To fill this gap, we develop the 
+    Climate Institutions Analysis Framework (CIAF) and use it to qualitatively analyse climate institutions in Germany, the United Kingdom, Sweden, and Australia. We demonstrate how cross-country variation in effects stems 
+    from interactions between institutions and ’intervening variables’ specific to countries’ contexts. Across our sample, most institutions address agenda-setting and knowledge-related strategic challenges; few deliver ex-ante 
+    accountability and none compensation. Our framework is relevant for comparative political economy analyses of meso-level political institutions, and, alongside our results, offers lessons for policymakers seeking to create or 
+    improve climate institutions.
+  </div>
+  </li>
+   <li>
+  <strong>When do green parties matter? Green party bargaining leverage and climate policy stringency</strong><br>
+  With Christian Flachsland and Mark Kayser<br>
+  Draft available upon request<br>
+  <i><a href="#" onclick="toggle_visibility('abstract1');">[Abstract]</a></i>
+  <div id="abstract1" style="display:none;"><br>
+    Political parties are often overlooked in studies of net zero transitions. Despite our growing understanding of the influence of public opinion, interest groups, and institutions, we know little about the role of parties in 
+    determining climate policy. This paper addresses a specific puzzle: when do Green Parties (GPs) deliver stringent climate reforms? Theoretically, the success of ‘green’ special interest parties should lead to better climate policy 
+    outcomes. Yet evidence of the effect of GP representation in parliament and government is mixed. We argue coalition bargaining leverage — the capacity for a GP to demand its preferred outcome in negotiations based on an expanded set 
+    of coalition options — is a missing link in the relationship between GPs and policy change. Building on a novel, empirical measure of leverage developed by Kayser et al. (2023), we test whether multiparty 
+    systems are more likely to implement (more) stringent climate policies when GPs increase their leverage. We measure changes in climate policy stringency using a new harmonised cross-country database from the OECD. Our results show GP leverage is associated with greater climate policy stringency and has a stronger effect than a GP being in government or increasing its support in the polls. We only identify this pattern, however, in the electricity sector. GP leverage appears to have had little effect (so far) on policies in the industrial, buildings, and transport sectors. Our findings motivate theoretical and empirical study of the political economies of different sectors of climate policy.
+  </div>
+</li>
+     <li><strong>The electoral consequences of climate ambition in fossil fuel communities</strong><br>
+            Draft available upon request<br>
+  <i><a href="#" onclick="toggle_visibility('abstract1');">[Abstract]</a></i>
+  <div id="climateinstitutions" style="display:none;"><br>
+    Government policies to mitigate climate change threaten communities reliant on the fossil fuel industry for their livelihoods and can provoke electoral backlash. But how do voters in these communities respond prospectively to climate policies, the effects of which will only materialise in the future? Building on studies which highlight the role of uncertainty in shaping climate policy preferences, I argue that uncertainty about the nature and consequences of climate reforms leads voters in fossil fuel communities to punish the party proposing them. I study this question in the context of Australia, a country characterised by regional variation in its domestic and export-oriented fossil fuel industries. I leverage the 2019 federal election -- in which climate change rose to record levels of salience and split the major parties -- as a treatment event, to estimate a difference-in-differences. Assembling a novel panel of vote shares at 4,125 polling stations across Australia, I find voters in fossil fuel communities rejected the pro-climate party, before any climate policies had been implemented. To highlight the role of uncertainty, I compare how voters responded in communities that differed in their anticipated exposure to climate policies and the degree of uncertainty in the 2019 election. I find that effects are stronger in export-oriented communities, which were not exposed to domestic climate policies, but nevertheless faced substantial uncertainty in the 2019 election campaign. These results provide new evidence of prospective voting on climate policy and offer insights for parties developing electoral strategies for climate change mitigation.
+  </div>
       </ul>
     </section>
 
