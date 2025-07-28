@@ -1,35 +1,40 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <script type="text/javascript">
-  function toggle_visibility(id) {
-    event.preventDefault();
-    var e = document.getElementById(id);
-    if (e.style.display == 'none') {
-      e.style.display = 'block';
-    } else {
-      e.style.display = 'none';
+    function toggle_visibility(id) {
+      event.preventDefault();
+      var e = document.getElementById(id);
+      if (e.style.display === 'none') {
+        e.style.display = 'block';
+      } else {
+        e.style.display = 'none';
+      }
     }
-  }
-</script>
-</script>
+  </script>
+
   <title>Claudia Zwar</title>
+
   <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <link rel="stylesheet" href="stylesheets/shiro.css"> <!-- optional -->
+  <link rel="stylesheet" href="stylesheets/kube.css">  <!-- optional -->
 </head>
 
 <body>
   <div class="wrapper">
-    <div class="container">
     <header>
       <h1>Claudia Zwar</h1>
       <img src="img/ClaudiaZwar_image.jpg" alt="Claudia Zwar headshot">
 
-      <p>PhD Candidate, Hertie School Doctoral Programme in Governance<br>
-         Research Associate, Hertie School Centre for Sustainability<br>
-         <a href="mailto:c.zwar@hertie-school.org">c.zwar@hertie-school.org</a>
+      <p class="view">
+        PhD Candidate, Hertie School Doctoral Programme in Governance<br>
+        Research Associate, <a href="https://www.hertie-school.org/en/sustainability/">Hertie School Centre for Sustainability</a><br>
+        <a href="mailto:c.zwar@hertie-school.org">c.zwar@hertie-school.org</a>
       </p>
 
       <p>
@@ -138,11 +143,18 @@
   </li>
 </ul>
 </section>
-    <footer>
-      <p><small>Website built using the <a href="https://github.com/orderedlist/minimal">Minimal theme</a> on GitHub Pages.</small></p>
+   <footer>
+      <p><small> This website is based on the Github <a href="https://github.com/orderedlist/minimal">minimal theme</a>
+          and is inspired by the website of Shiro Kuriwaki</a>.
+          </a></small></p>
     </footer>
-      
   </div>
   <script src="javascripts/scale.fix.js"></script>
+
+  </div>
+  </footer>
+  </div>
+
 </body>
+
 </html>
